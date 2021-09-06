@@ -18,7 +18,7 @@ setup(
     url='https://github.com/rulematrix/rule-matrix-py',
     packages=find_packages(),
     install_requires=[
-        'fim @ https://github.com/myaooo/pyfim-clone/tarball/master#egg=fim-6.28',
+        'fim-python @ git+https://github.com/csinva/pyfim-clone',
         # 'python-s3 @ http://github.com/robot-republic/python-s3/tarball/master.tar.gz'
         'numpy', 
         'pysbrl>=0.4.2',
